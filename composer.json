@@ -1,0 +1,18 @@
+{
+    "name": "violinist-dev/update-check-data",
+    "description": "Value objects",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+      "psr-4": {
+        "Violinist\\UpdateCheckData\\": "src"
+      }
+    },
+    "authors": [
+        {
+            "name": "Eirik S. Morland",
+            "email": "eirik@morland.no"
+        }
+    ],
+    "require": {}
+}
