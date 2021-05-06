@@ -82,6 +82,9 @@ class UpdateCheckData
      */
     public function getShaForPackage($package)
     {
+        if (empty($this->packageShas[$package])) {
+            return null;
+        }
         if (!$this->packageShas[$package]) {
             return null;
         }
